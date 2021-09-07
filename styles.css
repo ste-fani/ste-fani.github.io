@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+body {
+    color:#40514E;
+    margin: 0rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+h1 {
+    color: #F6A9A9;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin: 3.125rem auto 0rem auto;
+}
+
+h2 {
+    color: #FFA0A0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0.625rem;
+}
+
+h3 {
+    color: #FFA0A0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #40514E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #FF9A8C;
+    border-width: 0.3125rem;
+    width: 5%;
+}
+
+/**********CLASS SELECTOR**********/
+
+.top-conteiner {
+    background-color: #FFF8E5;
+    position: relative;
+    padding: 6.25rem;
+}
+
+.description {
+    padding-bottom: 2.5rem;
+}
+
+.middle-container {
+   background-color: #FFF8E5;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 6.25rem auto 6.25rem auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.programming-img {
+    width: 25%;
+    float: left;
+    padding-top: 0rem;
+    margin-right: 1.875rem;
+}
+
+
+.food-img {
+    width: 25%;
+    float: right;
+    margin-left: 1.875rem;
+}
+
+.tech-icon {
+    padding-top: 0.625rem;
+    position: absolute;
+    left: 39.8%;
+}
+
+.subtitle {
+    padding: 0rem;
+}
+
+.bottom-container {
+    background-color:  #FF8882;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 6.25rem;
+    top: 2.5rem;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 6.25rem;
+    bottom: 0rem;
+}
+
+
+.footer-link{
+    height: 1.25rem;
+}
+
+.referencia {
+    text-align: left;
+    font-size: 0.625rem;
+    color:#194350 ;
+}
+.referencia-name {
+    color:#194350;
+}
